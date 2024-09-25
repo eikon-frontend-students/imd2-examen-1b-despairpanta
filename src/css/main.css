@@ -114,3 +114,107 @@ video {
 }
 
 /* 04. Intégration */
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background: #fdf0d5;
+}
+
+/* exercice 2 */
+.link-container {
+  display: flex;
+  justify-content: center;
+}
+
+.calltoaction {
+  text-align: center;
+  margin: auto;
+}
+
+/* exercice 3 */
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  padding: 15px 0;
+}
+
+/* exercice 4 */
+
+.card-infos {
+  display: flex;
+}
+
+.profile-card {
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 2 2 2 0 #0000001a;
+}
+
+.profile-card .photo {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.identity h1 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+}
+
+.profile-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbbd3c;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+a img {
+  width: 20px;
+  height: 20px;
+}
